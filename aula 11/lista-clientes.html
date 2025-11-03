@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Lista Clientes</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"> Hotel da Neide </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Clientes
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="lista-clientes.html">Lista de Clientes</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="cadastro-clientes.html">Cadastro de
+                                                Clientes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Quartos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="lista-quartos.html">Lista de Quartos</a></li>
+                                        <li><a class="dropdown-item" href="cadastro-quartos.html">Cadastro de
+                                                Quartos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="pb-5"></div>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1 class="text-center">Lista de Clientes</h1>
+                <table class="table text-center table-bordeless">
+                    <thead class="table-light">
+                        <tr">
+                            <th scope="col">#</th>
+                            <th scope="col">Nome Completo</th>
+                            <th scope="col">Sexo</th>
+                            <th scope="col">Data de Nascimento</th>
+                            <th scope="col">CPF</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Endereço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>John Alvez</td>
+                            <td>Masculino</td>
+                            <td>02/04/1995</td>
+                            <td>489.546.026-65</td>
+                            <td>Rio Grande do Sul</td>
+                            <td>Cidreira</td>
+                            <td>R.antonio amaral</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                           <td>Evelin Gomes</td>
+                            <td>Feminino</td>
+                            <td>25/08/1999</td>
+                            <td>963.214.478-54</td>
+                            <td>Rio Grande do Sul</td>
+                            <td>Arroio Teixeira</td>
+                            <td>R.Osvaldo Carvalho</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Marcos Ribeiro</td>
+                            <td>Masculino</td>
+                            <td>23/02/2001</td>
+                            <td>745.632.147-45</td>
+                            <td>Rio Grande do Sul</td>
+                            <td>Dom Pedro de Alcantra</td>
+                            <td>R.Luis inacio</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Pamela Sousa</td>
+                            <td>Feminino</td>
+                            <td>07/12/1993</td>
+                            <td>854.412.236-69</td>
+                            <td>Rio Grande do Sul</td>
+                            <td>Uruguaina</td>
+                            <td>R.Henrique Maciel</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Gabriel Martins</td>
+                            <td>Masculino</td>
+                            <td>03/05/1978</td>
+                            <td>256.698.874-45</td>
+                            <td>Rio Grande do Sul</td>
+                            <td>Porto Alegre</td>
+                            <td>R.Jair Bolsonaro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2 pb-5"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
